@@ -10,7 +10,7 @@
 
 ### 🤔 Sobre o Projeto?
 
-Trata-se de um script para instalar programas automaticamente quando você precisar formatar seu PC.
+Trata-se de um script para instalar programas automaticamente quando você precisar formatar seu PC Windows.
 
 ---
 
@@ -39,18 +39,37 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
    Set-ExecutionPolicy Bypass -Scope Process -Force; `
    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; `
    iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   ```
 
-Obs: para verificar se instalou corretamente:
-  
+    Obs: para verificar se instalou corretamente:
+ 
+    ```powershell
     choco --version
+    ```
 
 
 
-2. Execute o script:
+3. **Execute o script:**
 
-Abra o PowerShell como Administrador e execute o script:
+    Abra o PowerShell como Administrador e execute o script:
 
+    ```powershell
     .\install.ps1
+    ```
+        
+4. **Outro comandos:**
+
+    Para atualizar todos os programas instalados pelo Chocolatey:
+   
+    ```powershell
+    choco upgrade all -y
+    ```
+        
+    Para remover um programa específico:
+
+    ```powershell
+    choco uninstall googlechrome -y
+    ```
 
 
 <h3 align="center">William Alonso</h3>

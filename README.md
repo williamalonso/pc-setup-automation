@@ -64,12 +64,27 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
     ```powershell
     choco upgrade all -y
     ```
-        
+
+    Para instalar um programa específico via Chocolatey:
+
+   ```powershell
+    choco install whatsapp -y
+    ```
+
+   Para instalar um programa específico via Windows Store:
+
+   ```powershell
+    winget install whatsapp --accept-source-agreements --accept-package-agreements
+    ```
+   
     Para remover um programa específico:
 
     ```powershell
     choco uninstall googlechrome -y
     ```
 
+---
 
+Se você gostou dessas dicas,  clique em Star ( :star: ) no repisório e segue meu canal no [Youtube](https://www.youtube.com/@CavernadoFront)! :upside_down_face:
+    
 <h3 align="center">William Alonso</h3>

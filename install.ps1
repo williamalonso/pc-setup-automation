@@ -26,7 +26,8 @@ $programs = @(
     @{name="7-Zip"; chocoName="7zip"; wingetId="7zip.7zip"},
     @{name="OBS Studio"; chocoName="obs-studio"; wingetId="OBSProject.OBSStudio"},
     @{name="WhatsApp"; chocoName="whatsapp"; wingetId="9NKSQGP7F2NH"},
-    @{name="CapCut"; chocoName="capcut"; wingetId="Bytedance.CapCut"}
+    @{name="CapCut"; chocoName="capcut"; wingetId="Bytedance.CapCut"},
+    @{name="Python"; chocoName="python"; wingetId="Python.Python.3"}
 )
 
 # Tenta instalar cada programa

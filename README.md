@@ -24,6 +24,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 ### ✨ Sobre a construção do projeto:
 
+- O script verifica se o programa que voce quer já existe (via Get-Package e Windows Store) antes de instalar.
 - O script vai tentar instalar os programas via repositório/api do Chocolatey;
 - Se determinado programa não conseguir ser instalado ou não existir no repo, o script tenta instalar via Windows Store;
 

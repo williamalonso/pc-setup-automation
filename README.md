@@ -2,19 +2,13 @@
     PC Setup Automation
 </h1>
 
----
-
-</div>
-
-
-
 ### 🤔 Sobre o Projeto?
 
 Trata-se de um script para instalar programas automaticamente quando você precisar formatar seu PC Windows.
 
 ---
 
-## 🚀 Tecnologias
+### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com a seguinte tecnologia:
 
@@ -30,7 +24,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 ---
 
-## 🙅 Instalações e usos
+### 🙅 Instalações e usos
 
 1. **Instale o Chocolatey:**
 
@@ -47,6 +41,8 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
     ```powershell
     choco --version
     ```
+
+---
 
 2. **Insira sua lista de programas**
 
@@ -65,15 +61,18 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
    <br>
     :arrow_right: repositório do [winget](https://winstall.app/)
 
-4. **Execute o script:**
+---
+
+3. **Execute o script:**
 
     Abra o PowerShell como Administrador e execute o script:
 
     ```powershell
     .\install.ps1
     ```
-        
-5. **Outro comandos:**
+---        
+
+4. **Outro comandos:**
 
     Para atualizar todos os programas instalados pelo Chocolatey:
    

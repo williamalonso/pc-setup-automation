@@ -59,12 +59,13 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
     )
     ```
     
-    Para buscar os nomes dos programas basta procurar nos repositórios abaixo ou pedir ao ChatGPT (: 
+    Para buscar os nomes dos programas basta procurar nos repositórios abaixo ou pedir ao [ChatGPT](https://chatgpt.com/) :wink:
     
-    repositório do -[Chocolatey](https://community.chocolatey.org/packages)
-    repositório do -[winget](https://winstall.app/)
+    :arrow_right: repositório do [Chocolatey](https://community.chocolatey.org/packages)
+   <br>
+    :arrow_right: repositório do [winget](https://winstall.app/)
 
-3. **Execute o script:**
+4. **Execute o script:**
 
     Abra o PowerShell como Administrador e execute o script:
 
@@ -72,7 +73,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
     .\install.ps1
     ```
         
-4. **Outro comandos:**
+5. **Outro comandos:**
 
     Para atualizar todos os programas instalados pelo Chocolatey:
    

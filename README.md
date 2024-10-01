@@ -48,7 +48,21 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
     choco --version
     ```
 
+2. **Insira sua lista de programas**
 
+    No trecho de código abaixo (linha 37) adicione os programas que você quer instalar em sua máquina.
+
+    ```powershell
+    $programs = @(
+        @{name="Google Chrome"; chocoName="googlechrome"; wingetId="Google.Chrome"},
+        ...
+    )
+    ```
+    
+    Para buscar os nomes dos programas basta procurar nos repositórios abaixo ou pedir ao ChatGPT (: 
+    
+    repositório do -[Chocolatey](https://community.chocolatey.org/packages)
+    repositório do -[winget](https://winstall.app/)
 
 3. **Execute o script:**
 

@@ -45,7 +45,13 @@ $programs = @(
     @{name="OBS Studio"; chocoName="obs-studio"; wingetId="OBSProject.OBSStudio"},
     @{name="WhatsApp"; chocoName="whatsapp"; wingetId="9NKSQGP7F2NH"},
     @{name="CapCut"; chocoName="capcut"; wingetId="Bytedance.CapCut"},
-    @{name="Python"; chocoName="python"; wingetId="Python.Python.3"}
+    @{name="Python"; chocoName="python"; wingetId="Python.Python.3"},
+    # @{name="MySQL Workbench"; chocoName="mysql.workbench"; wingetId="Oracle.MySQLWorkbench"}
+    @{name="Ngrok"; chocoName="ngrok"; wingetId="Ngrok.Ngrok"},
+    @{name="Postman"; chocoName="postman"; wingetId="Postman.Postman"},
+    @{name="Sublime Text"; chocoName="sublimetext3"; wingetId="SublimeHQ.SublimeText.4"},
+    @{name="WSL"; chocoName="wsl"; wingetId="Microsoft.WSL"},
+    @{name="Voxengo Marvel GEQ"; chocoName="voxengo-marvelgeq"; wingetId=""}
 )
 
 # Loop para verificar e instalar os programas

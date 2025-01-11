@@ -35,23 +35,39 @@ function Install-ViaWinget {
 
 # Lista de programas para instalar via Chocolatey
 $programs = @(
+    # Navegadores
     @{name="Google Chrome"; chocoName="googlechrome"; wingetId="Google.Chrome"},
+    @{name="Mozilla Firefox"; chocoName="firefox"; wingetId="Mozilla.Firefox"},
+    @{name="Opera"; chocoName="opera"; wingetId="Opera.Opera"},
+    # Apps de programação
     @{name="Visual Studio Code"; chocoName="vscode"; wingetId="Microsoft.VisualStudioCode"},
     @{name="Git"; chocoName="git"; wingetId="Git.Git"},
     @{name="Node.js"; chocoName="nodejs"; wingetId="OpenJS.Nodejs"},
     @{name="NVM"; chocoName="nvm"; wingetId="nvm-sh.nvm"},
     @{name="Docker"; chocoName="docker"; wingetId="Docker.DockerDesktop"},
     @{name="7-Zip"; chocoName="7zip"; wingetId="7zip.7zip"},
-    @{name="OBS Studio"; chocoName="obs-studio"; wingetId="OBSProject.OBSStudio"},
-    @{name="WhatsApp"; chocoName="whatsapp"; wingetId="9NKSQGP7F2NH"},
-    @{name="CapCut"; chocoName="capcut"; wingetId="Bytedance.CapCut"},
     @{name="Python"; chocoName="python"; wingetId="Python.Python.3"},
-    # @{name="MySQL Workbench"; chocoName="mysql.workbench"; wingetId="Oracle.MySQLWorkbench"}
     @{name="Ngrok"; chocoName="ngrok"; wingetId="Ngrok.Ngrok"},
     @{name="Postman"; chocoName="postman"; wingetId="Postman.Postman"},
     @{name="Sublime Text"; chocoName="sublimetext3"; wingetId="SublimeHQ.SublimeText.4"},
     @{name="WSL"; chocoName="wsl"; wingetId="Microsoft.WSL"},
-    @{name="Voxengo Marvel GEQ"; chocoName="voxengo-marvelgeq"; wingetId=""}
+    # Apps de produtividade
+    @{name="OBS Studio"; chocoName="obs-studio"; wingetId="OBSProject.OBSStudio"},
+    @{name="WhatsApp"; chocoName="whatsapp"; wingetId="9NKSQGP7F2NH"},
+    @{name="CapCut"; chocoName="capcut"; wingetId="Bytedance.CapCut"},
+    @{name="Voxengo Marvel GEQ"; chocoName="voxengo-marvelgeq"; wingetId=""},
+    @{name="BitTorrent"; chocoName="bittorrent"; wingetId="BitTorrent.BitTorrent"},
+    @{name="Stremio"; chocoName="stremio"; wingetId="Stremio.Stremio"},
+    @{name="VLC Media Player"; chocoName="vlc"; wingetId="VideoLAN.VLC"},
+    # Launcher de jogos
+    @{name="Steam"; chocoName="steam"; wingetId="Valve.Steam"},
+    @{name="Epic Games Launcher"; chocoName="epicgameslauncher"; wingetId="EpicGames.EpicGamesLauncher"},
+    @{name="Xbox Installer"; chocoName="xbox"; wingetId="Microsoft.XboxApp"},
+    @{name="GOG Galaxy"; chocoName="goggalaxy"; wingetId="GOG.Galaxy"},
+    @{name="Ubisoft Connect"; chocoName="ubisoft-connect"; wingetId="Ubisoft.Connect"},
+    @{name="EA Installer"; chocoName="ea-app"; wingetId="ElectronicArts.EADesktop"},
+    @{name="MSI Afterburner"; chocoName="msi-afterburner"; wingetId="MSI.Afterburner"},
+    @{name="Playnite"; chocoName="playnite"; wingetId="Playnite.Playnite"}
 )
 
 # Loop para verificar e instalar os programas

@@ -47,7 +47,7 @@ $programs = @(
     @{name="Docker"; chocoName="docker"; wingetId="Docker.DockerDesktop"},
     @{name="7-Zip"; chocoName="7zip"; wingetId="7zip.7zip"},
     @{name="Python"; chocoName="python"; wingetId="Python.Python.3"},
-    @{name="Ngrok"; chocoName="ngrok"; wingetId="Ngrok.Ngrok"},
+    # @{name="Ngrok"; chocoName="ngrok"; wingetId="Ngrok.Ngrok"},
     @{name="Postman"; chocoName="postman"; wingetId="Postman.Postman"},
     @{name="Sublime Text"; chocoName="sublimetext3"; wingetId="SublimeHQ.SublimeText.4"},
     @{name="WSL"; chocoName="wsl"; wingetId="Microsoft.WSL"},
@@ -59,6 +59,9 @@ $programs = @(
     @{name="BitTorrent"; chocoName="bittorrent"; wingetId="BitTorrent.BitTorrent"},
     @{name="Stremio"; chocoName="stremio"; wingetId="Stremio.Stremio"},
     @{name="VLC Media Player"; chocoName="vlc"; wingetId="VideoLAN.VLC"},
+    # Segurança
+    @{name="Kaspersky"; chocoName="kaspersky"; wingetId="Kaspersky.Kaspersky"},
+    @{name="Kaspersky Password Manager"; chocoName="kpm"; wingetId="Kaspersky.PasswordManager"},
     # Launcher de jogos
     @{name="Steam"; chocoName="steam"; wingetId="Valve.Steam"},
     @{name="Epic Games Launcher"; chocoName="epicgameslauncher"; wingetId="EpicGames.EpicGamesLauncher"},
